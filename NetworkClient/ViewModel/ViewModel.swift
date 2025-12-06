@@ -11,18 +11,15 @@ class ViewModel: ObservableObject {
     @Published var categories: [Category] = []
     @Published var products: [Product] = []
     
-    private let networkClient: NetworkClient
-    init(networkClient:NetworkClient) {
+    private let networkClient: NetworkClientProtocol
+    init(networkClient:NetworkClientProtocol) {
         self.networkClient = networkClient
     }
     
     func loadCategories() async {
         Task { @MainActor in
             do {
-                let categoryArray = try await networkClient.fetch(type:[String].self, url: Endpoint.categories.url)
-                categories = categoryArray.compactMap({ category in
-                    Category(id: UUID(), name: category)
-                })
+                categories = try await networkClient.fetch(type:[Category].self, url: Endpoint.categories.url)
             } catch {
                 print(error)
             }

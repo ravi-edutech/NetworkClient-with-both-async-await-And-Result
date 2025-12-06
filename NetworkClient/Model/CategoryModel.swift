@@ -8,6 +8,8 @@
 import Foundation
 
 struct Category: Decodable, Identifiable {
-    var id: UUID
+    let slug: String
     let name: String
+    let url: String
+    var id: String { slug }
 }
