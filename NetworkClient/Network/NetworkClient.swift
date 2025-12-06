@@ -1,6 +1,6 @@
 //
 //  NetworkClient.swift
-//  InterviewProject
+//  NetworkClient
 //
 //  Created by Mr Ravi on 23/01/24.
 //

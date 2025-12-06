@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B80CD5DD2B15D1C200E1488E /* InterviewProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80CD5DC2B15D1C200E1488E /* InterviewProjectApp.swift */; };
+		B80CD5DD2B15D1C200E1488E /* NetworkClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80CD5DC2B15D1C200E1488E /* NetworkClientApp.swift */; };
 		B80CD5DF2B15D1C200E1488E /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80CD5DE2B15D1C200E1488E /* CategoriesView.swift */; };
 		B80CD5ED2B15D4FB00E1488E /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80CD5EC2B15D4FB00E1488E /* ProductView.swift */; };
 		B80CD5EF2B15D55600E1488E /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80CD5EE2B15D55600E1488E /* ProductsView.swift */; };
@@ -25,7 +25,7 @@
 
 /* Begin PBXFileReference section */
 		B80CD5D92B15D1C200E1488E /* NetworkClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B80CD5DC2B15D1C200E1488E /* InterviewProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterviewProjectApp.swift; sourceTree = "<group>"; };
+		B80CD5DC2B15D1C200E1488E /* NetworkClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClientApp.swift; sourceTree = "<group>"; };
 		B80CD5DE2B15D1C200E1488E /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
 		B80CD5EC2B15D4FB00E1488E /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		B80CD5EE2B15D55600E1488E /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
@@ -95,7 +95,7 @@
 		DB1722F02B73C4A900FE2F73 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				B80CD5DC2B15D1C200E1488E /* InterviewProjectApp.swift */,
+				B80CD5DC2B15D1C200E1488E /* NetworkClientApp.swift */,
 				B80CD5EC2B15D4FB00E1488E /* ProductView.swift */,
 				B80CD5EE2B15D55600E1488E /* ProductsView.swift */,
 				B80CD5DE2B15D1C200E1488E /* CategoriesView.swift */,
@@ -216,7 +216,7 @@
 				DB1722F22B73C51200FE2F73 /* ViewModel.swift in Sources */,
 				B80CD5ED2B15D4FB00E1488E /* ProductView.swift in Sources */,
 				B80CD5DF2B15D1C200E1488E /* CategoriesView.swift in Sources */,
-				B80CD5DD2B15D1C200E1488E /* InterviewProjectApp.swift in Sources */,
+				B80CD5DD2B15D1C200E1488E /* NetworkClientApp.swift in Sources */,
 				DB1722EE2B73C24900FE2F73 /* ProductModel.swift in Sources */,
 				DB1722F92B73C61A00FE2F73 /* APIClient.swift in Sources */,
 				DBDFEA2D2B5F9E08009F11DE /* NetworkClient.swift in Sources */,
